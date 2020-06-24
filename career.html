@@ -24,7 +24,10 @@
       <header id="header">
         <a href="index.html" class="logo"
           ><strong>Digiteck Services</strong>
-          <span>Email: info@digiteck.co.in | Sales: 9724886679 | Support: 9725377879</span></a
+          <span style="text-transform: none;"
+            >Email: info@digiteck.co.in | Sales: 9724886679 | Support:
+            9725377879</span
+          ></a
         >
         <nav>
           <a href="#menu">Menu</a>
@@ -35,7 +38,7 @@
       <nav id="menu">
         <ul class="links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="landing.html">Services</a></li>
+          <li><a href="information_technology.html">Services</a></li>
           <li><a href="about-us.html">About Us</a></li>
           <!-- <li><a href="elements.html">Elements</a></li> -->
         </ul>
@@ -50,26 +53,17 @@
         <section id="one">
           <div class="inner">
             <header class="major">
-              <h1>Antivirus Softwares</h1>
+              <h1>Work with us</h1>
             </header>
             <span class="image main"
-              ><img style="height: 363px;" src="photo/datacenter-servers-2560x1440-001.jpg" alt=""
+              ><img
+                style="height: 360px;"
+                src="https://www.digitalvidya.com/wp-content/uploads/2019/07/Career-Planning_11e51d7713b3dd7a9c26782ae82eb165.jpg"
+                alt=""
             /></span>
-            <h4>Overview</h4>
-            
-           
-			<div class="row">
-				<div class="col-6 col-12-small">
-					<ul>
-						<li>Quick Heal / ESET /</li>
-						<li>Server Antiviruses</li>
-						<li>Consumer Antivirus</li>
-						<li>End point protections</li>
-						
-					</ul>
-        </div>
-        
-
+            <h4>Upload your cv here or Contact us</h4>
+            <input type="file" id="myFile" />
+            <button onclick="uploadFile()">Upload CV</button>
           </div>
         </section>
       </div>
@@ -178,9 +172,7 @@
           </ul>
           <ul class="copyright">
             <li>&copy; Digiteck @2020</li>
-            <li>
-              Designed by: <a href='#'>Digiteck Services</a>
-            </li>
+            <li>Designed by: <a href="#">Digiteck Services</a></li>
           </ul>
         </div>
       </footer>
@@ -194,5 +186,11 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      // for CV Uploading
+      function uploadFile() {
+        let doc = document.getElementById("myFile");
+      }
+    </script>
   </body>
 </html>
