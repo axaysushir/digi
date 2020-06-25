@@ -114,6 +114,8 @@ body {
   line-height: 1;
 }
 
+
+
 ol,
 ul {
   list-style: none;
@@ -2558,7 +2560,7 @@ table th {
   font-size: 0.9em;
   font-weight: 600;
   padding: 0 0.75em 0.75em 0.75em;
-  text-align: left;
+  text-align: center;
 }
 
 table thead {
