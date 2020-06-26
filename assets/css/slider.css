@@ -1,0 +1,60 @@
+.tech-slideshow, .tech-slideshow2 {
+  height: 180px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(../../companyLogo/logo.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow2 > div {
+  height: 200px;
+  width: 2526px;
+  background: url(../../companyLogo/brands.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 25s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 0;
+}
+
+.tech-slideshow2 .mover-1 {
+  animation: moveSlideshow 25s linear infinite;
+}
+.tech-slideshow2 .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow2:hover .mover-2 {
+  opacity: 0;
+}
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
