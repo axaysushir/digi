@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Digiteck Service - Complete IT solution</title>
+    <title>Digiteck Service - Career</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -59,7 +59,7 @@
             <span class="image main"
               ><img
                 style="height: 360px;"
-                src="https://www.digitalvidya.com/wp-content/uploads/2019/07/Career-Planning_11e51d7713b3dd7a9c26782ae82eb165.jpg"
+                src="images/career_team.jpg"
                 alt=""
             /></span>
 
@@ -270,8 +270,8 @@
             </div>
 
             <h4>Upload your cv here or Contact us</h4>
-            <input type="file" id="myFile" />
-            <button onclick="uploadFile()">Upload CV</button>
+            <!-- <input type="file" id="myFile" />
+            <button onclick="uploadFile()">Upload CV</button> -->
           </div>
         </section>
       </div>
@@ -280,24 +280,32 @@
       <section id="contact">
         <div class="inner">
           <section>
-            <form method="post" action="#">
+            <form method="POST" action="/cv-uploader.php" enctype="multipart/form-data">
               <div class="fields">
                 <div class="field half">
                   <label for="name">Name</label>
-                  <input type="text" name="name" id="name" />
+                  <input type="text" name="sender_name" id="name" />
                 </div>
                 <div class="field half">
                   <label for="email">Email</label>
-                  <input type="text" name="email" id="email" />
+                  <input type="text" name="sender_email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="email">Post Applied For</label>
+                  <input type="text" name="subject" id="subject" />
                 </div>
                 <div class="field">
                   <label for="message">Message</label>
                   <textarea name="message" id="message" rows="6"></textarea>
                 </div>
+                <div class="field half">
+                  <label for="file">Upload CV</label>
+                  <input type="file" name="attachment" id="file" />
+                </div>
               </div>
               <ul class="actions">
                 <li>
-                  <input type="submit" value="Send Message" class="primary" />
+                  <input type="submit" name="button" value="Send Message" class="primary" />
                 </li>
                 <li><input type="reset" value="Clear" /></li>
               </ul>
