@@ -3,7 +3,7 @@ if($_POST['button'] && isset($_FILES['attachment']))
 { 
   
     $from_email         = 'sender@abc.com'; //from mail, sender email addrress 
-    $recipient_email    = 'info@digiteck.co.in'; //recipient email addrress 
+    $recipient_email    = 'info@digiteck.co.in'; //recipient email address 
       
     //Load POST data from HTML form 
     $sender_name    = $_POST["sender_name"] //sender name 

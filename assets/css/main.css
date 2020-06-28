@@ -189,7 +189,7 @@ html {
 
 body {
   /* background: #091fe0; */
-  background: #071bc7;
+  background: #031292;
   /* background: #4507b8; */
 }
 
@@ -3108,8 +3108,8 @@ button:disabled,
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  /* background-color: #333856; */
-  background-color: #040aba;
+  /* background-color: #333856;  section color*/ 
+  background-color: #031292;
 }
 
 .spotlights > section:nth-child(2n) > .content {
@@ -3215,7 +3215,7 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #040aba;
+  background-color: #031292;
   box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
   cursor: default;
   font-weight: 600;
@@ -3510,7 +3510,8 @@ body.is-preload #header.alt {
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
   pointer-events: none;
-  background-color: #091fe0;
+  /* background-color: #091fe0; */
+  background-color: #031292;
   content: "";
   display: block;
   height: 100%;
@@ -3687,7 +3688,7 @@ body.is-preload #banner > .inner {
 /* Main */
 
 #main {
-  background-color: #040aba;
+  background-color: #020e75; /* system integraion*/
 }
 
 #main > * {
@@ -3806,8 +3807,8 @@ body.is-preload #banner > .inner {
 }
 
 #footer .copyright li {
-  border-left: solid 1px rgba(212, 212, 255, 0.1);
-  color: rgba(244, 244, 255, 0.2);
+  border-left: solid 1px rgba(212, 212, 255, 0.8);
+  color: rgba(244, 244, 255, 0.8);
   display: inline-block;
   line-height: 1;
   margin-left: 1em;
@@ -3891,7 +3892,7 @@ body.is-preload #banner > .inner {
   justify-content: center;
   pointer-events: none;
   /* background: rgba(36, 41, 67, 0.9); */
-  background: #1114d1;
+  background: #031292;
   box-shadow: none;
   height: 100%;
   left: 0;
