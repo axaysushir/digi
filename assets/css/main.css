@@ -3819,6 +3819,10 @@ body.is-preload #banner > .inner {
   padding-left: 0;
 }
 
+#map {
+  margin: 30px 0 0 20px;
+}
+
 @media screen and (max-width: 480px) {
   #footer .copyright li {
     display: block;
@@ -3826,6 +3830,12 @@ body.is-preload #banner > .inner {
     margin-left: 0;
     padding-left: 0;
     line-height: inherit;
+  }
+
+  #map {
+    display: flex;
+    width: 300px;
+    margin: 30px 0 0 30px;
   }
 }
 
